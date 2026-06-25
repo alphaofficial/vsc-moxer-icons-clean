@@ -12,14 +12,14 @@
 ### Install from releases (when available)
 
 ```bash
-curl -fL https://github.com/Moltenship/moxer-icons-fork/releases/latest/download/moxer-icons-fork.vsix -o /tmp/moxer-icons-fork.vsix \
+curl -fL https://github.com/alphaxsalt/moxer-icons-clean/releases/latest/download/moxer-icons-fork.vsix -o /tmp/moxer-icons-fork.vsix \
   && code --install-extension /tmp/moxer-icons-fork.vsix
 ```
 
 ### Build and install from source
 
 ```bash
-git clone https://github.com/Moltenship/moxer-icons-fork.git
+git clone https://github.com/alphaxsalt/moxer-icons-clean.git
 cd moxer-icons-fork
 npm install
 npm run compile

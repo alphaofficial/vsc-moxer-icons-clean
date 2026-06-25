@@ -1,5 +1,5 @@
 {
-  "name": "moxer-icons-fork",
+  "name": "moxer-icons-clean",
   "displayName": "Moxer Icons Clean",
   "description": "A fork of moxer icons - file icons theme for VS Code",
   "version": "0.1.0",
@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alphaofficial/codebunny.git"
+    "url": "https://github.com/alphaofficial/vsc-moxer-icons-clean.git"
   },
   "contributes": {
     "iconThemes": [
       {
-        "id": "moxer-icons-fork",
+        "id": "moxer-icons-clean",
         "label": "Moxer Icons Clean",
         "path": "./themes/icons/moxer-icons.json"
       }

@@ -23,8 +23,7 @@ echo "npm version: $(npm --version)"
 
 # Step 1: Install dependencies
 echo ""
-echo "Step 1: Installing npm dependencies..."
-npm install
+echo "Step 1: No dependencies."
 
 # Step 2: Package as VSIX
 echo ""
@@ -32,7 +31,7 @@ echo "Step 2: Packaging extension as VSIX..."
 npx @vscode/vsce package
 
 # Find the generated VSIX file
-VSIX_FILE="$(ls moxer-icons-fork-*.vsix 2>/dev/null | head -1)"
+VSIX_FILE="$(ls moxer-icons-clean-*.vsix 2>/dev/null | head -1)"
 if [ -z "$VSIX_FILE" ]; then
     echo "Error: VSIX package not found"
     exit 1
