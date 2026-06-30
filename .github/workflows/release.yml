@@ -27,4 +27,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          npx --yes semantic-release
+          npx --yes \
+            --package semantic-release \
+            --package @semantic-release/exec \
+            --package @semantic-release/github \
+            --package @semantic-release/commit-analyzer \
+            --package @semantic-release/release-notes-generator \
+            semantic-release
