@@ -1,0 +1,24 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "npx vsce package --out moxer-icons-clean.vsix"
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": [
+          {
+            "path": "moxer-icons-clean.vsix",
+            "label": "VSIX Package"
+          }
+        ]
+      }
+    ]
+  ]
+}
