@@ -28,7 +28,7 @@ echo "Step 1: No dependencies."
 # Step 2: Package as VSIX
 echo ""
 echo "Step 2: Packaging extension as VSIX..."
-npx @vscode/vsce package
+npx -y @vscode/vsce package
 
 # Find the generated VSIX file
 VSIX_FILE="$(ls moxer-icons-clean-*.vsix 2>/dev/null | head -1)"
