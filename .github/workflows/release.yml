@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
 
       - name: Package VSIX
         run: npx --yes @vscode/vsce package --out moxer-icons-clean.vsix
