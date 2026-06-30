@@ -29,7 +29,6 @@ jobs:
         run: |
           npx --yes \
             --package semantic-release \
-            --package @semantic-release/exec \
             --package @semantic-release/github \
             --package @semantic-release/commit-analyzer \
             --package @semantic-release/release-notes-generator \
