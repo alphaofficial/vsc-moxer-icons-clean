@@ -9,7 +9,7 @@
 
 ## Install
 
-### Install from releases
+### Install from release
 
 ```bash
 curl -fL https://github.com/alphaxsalt/moxer-icons-clean/releases/latest/download/moxer-icons-clean.vsix -o /tmp/moxer-icons-clean.vsix \
