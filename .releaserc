@@ -16,7 +16,7 @@
         "assets": [
           {
             "path": "moxer-icons-clean.vsix",
-            "label": "VSIX Package"
+            "label": "moxer-icons-clean.vsix"
           }
         ]
       }
