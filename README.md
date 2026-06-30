@@ -12,19 +12,18 @@
 ### Install from release
 
 ```bash
-curl -fL https://github.com/alphaxsalt/moxer-icons-clean/releases/latest/download/moxer-icons-clean.vsix -o /tmp/moxer-icons-clean.vsix \
+curl -fL https://github.com/alphaofficial/vsc-moxer-icons-clean/releases/latest/download/moxer-icons-clean.vsix -o /tmp/moxer-icons-clean.vsix \
   && code --install-extension /tmp/moxer-icons-clean.vsix
 ```
 
 ### Build and install from source
 
 ```bash
-git clone https://github.com/alphaxsalt/moxer-icons-clean.git
-cd moxer-icons-clean
+git clone https://github.com/alphaofficial/vsc-moxer-icons-clean.git
+cd vsc-moxer-icons-clean
 npm install
-npm run compile
-npx @vscode/vsce package
-code --install-extension moxer-icons-clean-*.vsix
+npm run package
+code --install-extension moxer-icons-clean.vsix
 ```
 
 ### Activate theme
